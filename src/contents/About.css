@@ -1,9 +1,19 @@
-.about-container {
-  display: flex;
-}
-
-.about-container > img {
+.about > img {
   border-radius: 50%;
   max-width: 250px;
-  /* margin-right: 50px; */
+}
+
+@media screen and (max-width: 600px) {
+  .about > img {
+    border-radius: 50%;
+    max-width: 140px;
+  }
+
+  .about-description > h1 {
+    font-size: 22px;
+  }
+
+  .about-description > h3 {
+    font-size: 12px;
+  }
 }

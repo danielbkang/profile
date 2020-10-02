@@ -25,3 +25,10 @@ body {
   flex-direction: column;
   justify-content: center;
 }
+
+@media screen and (max-width: 600px) {
+  .condiv {
+    padding: 40px;
+    height: calc(100vh - 127px);
+  }
+}

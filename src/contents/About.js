@@ -6,21 +6,21 @@ import "./About.css";
 class About extends Component {
   render() {
     return (
-      <div className="condiv about">
-        <div className="about-container flex">
+      <div className="condiv">
+        <div className="about flex">
           <img
             src={profilePicture}
             className="profilePicture"
             alt="profile"
           ></img>
-          <div>
+          <div className="about-description">
             <h1 className="subtopic">About Me</h1>
-            <h4>Hey there,</h4>
+            <br />
             <h1>I'm Daniel Kang</h1>
             <h3>
               Full Stack Web <u>Developer</u>
             </h3>
-            <br></br>
+            <br />
             <p>
               Organized, collaborative, and Full Stack web developer with 2+
               years of professional experience in dynamic and deadline-driven
