@@ -1,0 +1,20 @@
+.social {
+  display: flex;
+  justify-content: center;
+  margin-top: 35px;
+}
+.social > a > svg {
+  color: grey;
+  font-size: 40px;
+  padding-left: 9px;
+  padding-right: 9px;
+}
+.social > a > svg:hover {
+  color: black;
+}
+
+@media screen and (max-width: 600px) {
+  .social > a > svg {
+    font-size: 30px;
+  }
+}
