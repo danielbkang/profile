@@ -5,9 +5,16 @@ class Contact extends Component {
   render() {
     return (
       <div className="condiv contact">
-        <p>Phone: +1 (778)938-6388</p>
-        <br/>
-        <p>Email: danielbkang91@gmail.com</p>
+        <p>
+          Phone: <a href="tel:+17789386388"> +1 (778) 938-6388</a>
+        </p>
+
+        <br />
+        <p>
+          Email:{" "}
+          <a href="mailto:danielbkang91@gmail.com">danielbkang91@gmail.com</a>
+        </p>
+
         <SocialNetwork />
       </div>
     );
